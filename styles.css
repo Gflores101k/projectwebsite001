@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+.purple{
+    color: #6415ff;
+}
+.row{
+    width:100%;
+    max-width: 1200px;
+    margin:0 auto;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+
+
+button{
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    background-color: #6415ff;
+    border-radius: 9999px;
+    font-weight: 700;
+    border: 0px;
+    font-size: 100%;
+    cursor: pointer;
+    
+    
+}
+button:hover{
+
+    background-color: #4410ac;
+    
+}
+/* 
+
+NAVIGATION 
+
+*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+    justify-content: space-around;
+}
+
+.logo__img{
+    width: 50px;
+    height:50px;
+}
+.nav__links{
+    display: flex;
+    flex-direction: row;
+}
+.nav__link{
+    padding: 5px;
+    font-weight: 600px;
+    line-height: 26.25px;
+    font-size: 24px;
+    color: black;
+    font-weight:500;
+    margin-inline-start: 20px;
+
+}
+.nav__link--login{
+    margin-left: 60px;
+    
+}
+.nav__link--signup{
+    color: white;
+    background-color: #6415ff;
+    border-radius: 9999px;
+    padding: 15px 30px;
+}
+
+/* 
+
+TWO INPUT COLUMN
+
+*/
+
+.TwoColumnWithInput__container{
+    height: calc(80vh - 40px);
+    padding: 120px;
+
+}
+
+.TwoColumnWithInput__row{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.TwoColumnWithInput__left{
+    width:40%;
+}
+.TwoColumnWithInput__right{
+    width: 60%;
+}
+
+.TwoColumnWithInput__header{
+    line-height: 1.25;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.TwoColumnWithInput__para{
+    margin:40px 0;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.TwoColumnInput__img{
+    width: 100%;
+
+}
+
+.TwoColumnWithInput__input{
+    border: 2px solid #6415ff;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    padding: 24px 40px;
+    border-radius: 9999px;
+    cursor: text;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    margin: 0em;
+    border-width: 0px;
+    /* border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial; */
+}
