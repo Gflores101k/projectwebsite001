@@ -164,3 +164,31 @@ input{
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial; */
 }
+
+/*
+
+FEATURES
+
+*/
+
+.SixFeatures__container{
+    padding: 80px 0px;
+}
+
+.SixFeatures__row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.SixFeatures__header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feature__icon-description{
+    display: flex;
+    flex-wrap: wrap;
+}
