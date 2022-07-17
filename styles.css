@@ -188,7 +188,17 @@ FEATURES
     text-align: center;
 }
 
-.feature__icon-description{
+.SixFeatures__services{
     display: flex;
     flex-wrap: wrap;
+}
+
+.SixFeatures__service{
+    display: flex;
+    width: calc(100% / 3);
+}
+
+.SixFeatures__description{
+display: flex;
+flex-direction: column;
 }
